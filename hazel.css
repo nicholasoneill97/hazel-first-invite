@@ -447,6 +447,26 @@ img[class^="photo-"] {
     padding: 0
   }
 
+  .photo-1,
+  .photo-2 {
+    top: 5%
+  }
+
+  .photo-3,
+  .photo-4 {
+    bottom: 5%
+  }
+
+  .photo-5,
+  .photo-6 {
+    bottom: 20%
+  }
+
+  .photo-7,
+  .photo-8 {
+    top: 20%
+  }
+
   
 
   .big-photo {
@@ -456,13 +476,7 @@ img[class^="photo-"] {
 }
 
 @media screen and (max-width: 1024px) and (max-height: 700) {
-  .photo-1,
-  .photo-2,
-  .photo-3,
-  .photo-4 {
-    width: 40px;
-    height: 40px
-  }
+  
 
 }
 
@@ -488,14 +502,17 @@ img[class^="photo-"] {
   .photo-3,
   .photo-4 {
     width: 40px;
-    height: 40px
+    height: 40px;
+    top: 0%;
   }
   .photo-5,
   .photo-6,
   .photo-7,
   .photo-8 {
     width: 90px;
-    height: 90px
+    height: 90px;
+    bottom: 0%;
+
   }
 
   
@@ -535,14 +552,17 @@ img[class^="photo-"] {
   .photo-3,
   .photo-4 {
     width:20px;
-    height: 20px
+    height: 20px;
+    top: 0
   }
   .photo-5,
   .photo-6,
   .photo-7,
   .photo-8 {
     width: 40px;
-    height: 40px
+    height: 40px;
+    bottom: 0%;
+
   }
 
   .sparkle {
