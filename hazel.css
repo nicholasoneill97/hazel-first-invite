@@ -427,15 +427,15 @@ img[class^="photo-"] {
   }
 
   .when-title {
-    font-size: 8vw
+    font-size: 6vw
   }
 
   .where-title {
-    font-size: 8vw
+    font-size: 6vw
   }
 
   .invite-card h1 {
-    font-size: 8vw;
+    font-size: 6vw;
     padding: 0
 
   }
@@ -443,7 +443,7 @@ img[class^="photo-"] {
   .invite-card p,
   .invite-card-2 p,
   .invite-card-3 p {
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 0
   }
 
