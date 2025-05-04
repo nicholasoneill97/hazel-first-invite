@@ -410,18 +410,42 @@ img[class^="photo-"] {
   }
 
   .invite-card {
-    width: 70%;
+    width: 80%;
+    margin: 0;
     padding: 0 1rem;
+    
   }
 
   .invite-card-2 {
-    width: 60%;
+    width: 80%;
     padding: 0 1rem;
   }
 
-  
+  .invite-card-3 {
+    width: 80%;
+    padding: 0 1rem;
+  }
 
-  
+  .when-title {
+    font-size: 8vw
+  }
+
+  .where-title {
+    font-size: 8vw
+  }
+
+  .invite-card h1 {
+    font-size: 8vw;
+    padding: 0
+
+  }
+
+  .invite-card p,
+  .invite-card-2 p,
+  .invite-card-3 p {
+    font-size: 4vw;
+    padding: 0
+  }
 
   
 
@@ -439,6 +463,7 @@ img[class^="photo-"] {
     width: 40px;
     height: 40px
   }
+
 }
 
 /* Small tablets and large phones */
@@ -447,6 +472,8 @@ img[class^="photo-"] {
   .invite-card {
     width: 100%
   }
+
+  
   
 
   
@@ -488,6 +515,7 @@ img[class^="photo-"] {
     top: 15px;
     right: 20px;
   }
+  
 }
 
 /* Phones */
@@ -496,6 +524,8 @@ img[class^="photo-"] {
     width: 95%;
     padding: 0.5rem;
   }
+
+  
 
   
   
@@ -515,8 +545,6 @@ img[class^="photo-"] {
     height: 40px
   }
 
-  
-
   .sparkle {
     width: 6px;
     height: 6px;
@@ -530,20 +558,4 @@ img[class^="photo-"] {
   .close-button {
     font-size: 24px;
   }
-}
-
-@media screen and (min-height: 550px) {
-  
-  
-}
-
-@media screen and (min-height: 600px) {
-  .invite-card h1,
-  .invite-card p,
-  .invite-card-2 p,
-  .invite-card-3 p {
-    width: auto
-  }
-
- 
 }
